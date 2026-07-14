@@ -1,0 +1,23 @@
+{
+  "name": "content-audit-agent",
+  "version": "1.0.0",
+  "description": "Audits a page's factual claims against a source-of-truth document and reports each one as supported, contradicted, or unverifiable — with a direct quote as evidence, never a guess.",
+  "type": "module",
+  "bin": {
+    "content-audit-agent": "./bin/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dani-aisystems/content-audit-agent.git"
+  }
+}
