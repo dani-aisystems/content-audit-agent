@@ -1,5 +1,7 @@
 # content-audit-agent
 
+[![CI](https://github.com/dani-aisystems/content-audit-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/dani-aisystems/content-audit-agent/actions/workflows/ci.yml)
+
 Audits a page's factual claims against a source-of-truth document and reports each one as **supported**, **contradicted**, or **unverifiable** — with a direct quote as evidence, or an explicit "nothing found" instead of a guess.
 
 ## Why this exists
